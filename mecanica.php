@@ -33,7 +33,7 @@ function extenso($param)
                         $final = $final . " DOIS MIL";
                         break;
                     case 3:
-                        $final = $final . " TRÊS MIL";
+                        $final = $final . " TRÃŠS MIL";
                         break;
                     case 4:
                         $final = $final . " QUATRO MIL";
@@ -139,7 +139,7 @@ function extenso($param)
                         $final = $final . " DOIS";
                         break;
                     case 3:
-                        $final = $final . " TRÊS";
+                        $final = $final . " TRÃŠS";
                         break;
                     case 4:
                         $final = $final . " QUATRO";
@@ -169,6 +169,6 @@ function extenso($param)
                 break;
         }
     }
-    echo $final."<BR>";
+    return $final;
 }
 
