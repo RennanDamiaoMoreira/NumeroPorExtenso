@@ -8,13 +8,16 @@ function extenso($param)
     $vetor = array();
     $final="";
     for ($i = 0; $i < $tamanho; $i ++) {
+      
         $vetor[$i] = ((int) ($valor / 10 ** $i));
+       
     }
     
     for ($i = 0; $i < $tamanho; $i ++) {
         if ($i == $tamanho - 1) {} else {
             $vetor[$i] = ($vetor[$i] - ($vetor[$i + 1] * 10));
         }
+        echo $vetor[$i]."--\n";
     }
     echo $final;
   
